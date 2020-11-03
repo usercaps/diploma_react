@@ -1,0 +1,51 @@
+.profile {
+  padding: 80px 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  .header-block {
+    padding: 0 2.5%;
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      padding-bottom: 10px;
+      .MuiAvatar-root {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        height: 60px;
+        min-width: 60px;
+        img {
+          width: auto;
+        }
+      }
+      h2 {
+        flex-basis: 100%;
+        text-align: center;
+      }
+      .MuiChip-root {
+        margin: 2px;
+        border-radius: 0.28571429rem;
+        height: auto;
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        background-color: transparent;
+        cursor: pointer;
+        transition: 170ms ease;
+        padding: 2px;
+        font-size: 14px;
+        &:hover {
+          color: #be0016;
+          border-color: #be0016;
+          background-color: rgba(0, 0, 0, 0.04);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .offset-1 {
+    margin: 0;
+  }
+}
